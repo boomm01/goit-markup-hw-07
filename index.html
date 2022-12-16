@@ -7,29 +7,29 @@
 	<link rel="stylesheet" href="./css/resets.css">
 	<link rel="stylesheet" href="./css/modern-normalize.css">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/main.min.css">
 	<title>WebStudio</title>
 </head>
 <body>
 	<header class="header ">
 		<div class="container flex">
 			<a class="logo header__logo" href="/"><span class="logo__span">Web</span>Studio</a>
-			<nav class="header-nav">
-				<ul class="header-list">
-					<li class="header-list-items"><a class="header-list-link active current" href="#">Студія</a></li>
-					<li class="header-list-items"><a class="header-list-link " href="portfolio.html">Портфоліо</a></li>
-					<li class="header-list-items"><a class="header-list-link" href="#">Контакти</a></li>
+			<nav class="navigation header__navigation">
+				<ul class="menu">
+					<li class="menu__item"><a class="menu__link active current" href="#">Студія</a></li>
+					<li class="menu__item"><a class="menu__link " href="portfolio.html">Портфоліо</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Контакти</a></li>
 				</ul>
 			</nav>
-			<ul class="header-contacts ">
-				<li class="header-contacts-items"><a class="header-contacts-link" href="mailto:info@devstudio.com"> <svg class="header-contacts-icon" width="16" height="12">
+			<ul class="contacts header__contacts ">
+				<li class="contacts__items"><a class="contacts__link" href="mailto:info@devstudio.com"> <svg class="contacts__icon" width="16" height="12">
 					<use href="./images/symbol-defs.svg#icon-envelope-1" >
 
 					</use>
 				</svg> info@devstudio.com </a>
 				</li>
-				<li class="header-contacts-items"><a class="header-contacts-link" href="tel:+380961111111">
-					<svg class="header-contacts-icon" width="10" height="16">
+				<li class="contacts__items"><a class="contacts__link" href="tel:+380961111111">
+					<svg class="contacts__icon" width="10" height="16">
 						<use href="./images/symbol-defs.svg#icon-smartphone-1">
 
 						</use>
@@ -41,54 +41,54 @@
 	</header>
 	<main>
 		<section class="hero">
-			<div class="container">
-				<h1 class="hero-titel">Ефективні рішення для <br> вашого бізнесу</h1>
-				<button type="button" class="hero-btn" data-modal-open >Замовити послугу</button>
+			<div class="container hero__conteiner">
+				<h1 class="hero__titel">Ефективні рішення для <br> вашого бізнесу</h1>
+				<button type="button" class="hero__btn" data-modal-open >Замовити послугу</button>
 			</div>
 		</section>
 		<section class="approach section-padding">
 			<div class="container">
-				<h2 class="approach-uptitel">Підхід до роботи</h2>
-				<ul class="approach-list">
-					<li class="approach-items">
-						<div class="approach-items-box">
-							<svg class="approach-items-icon" width="70" height="70">
+				<h2 class="approach__uptitel">Підхід до роботи</h2>
+				<ul class="skill approach__list">
+					<li class="skill__items">
+						<div class="skill__box">
+							<svg class="skill__icon" width="70" height="70">
 								<use href="./images/symbol-defs.svg#icon-antenna-1-1">
 								</use>
 							</svg>
 						</div>
-						<h3 class="approach-titel">УВАГА ДО ДЕТАЛЕЙ</h3>
-						<p class="approach-text">Ідейні міркування, і навіть початок <br> повсякденної роботи з формування <br> позиції.</p>
+						<h3 class="skill__titel">УВАГА ДО ДЕТАЛЕЙ</h3>
+						<p class="skill__text">Ідейні міркування, і навіть початок <br> повсякденної роботи з формування <br> позиції.</p>
 					</li>
-					<li class="approach-items">
-						<div class="approach-items-box">
+					<li class="skill__items">
+						<div class="skill__box">
 							<svg class="approach-items-icon" width="70" height="70">
 								<use href="./images/symbol-defs.svg#icon-clock-1-1">
 								</use>
 							</svg>
 						</div>
-						<h3 class="approach-titel">ПУНКТУАЛЬНІСТЬ</h3>
-						<p class="approach-text">Завдання організації, особливо рамки <br> і місце навчання кадрів тягне у себе.</p>
+						<h3 class="skill__titel">ПУНКТУАЛЬНІСТЬ</h3>
+						<p class="skill__text">Завдання організації, особливо рамки <br> і місце навчання кадрів тягне у себе.</p>
 					</li>
-					<li class="approach-items">
-						<div class="approach-items-box">
+					<li class="skill__items">
+						<div class="skill__box">
 							<svg class="approach-items-icon" width="70" height="70">
 								<use href="./images/symbol-defs.svg#icon-diagram-1-1">
 								</use>
 							</svg>
 						</div>
-						<h3 class="approach-titel">ПЛАНУВАННЯ</h3>
-						<p class="approach-text">Так само консультація з широким <br> активом значною мірою зумовлює.</p>
+						<h3 class="skill__titel">ПЛАНУВАННЯ</h3>
+						<p class="skill__text">Так само консультація з широким <br> активом значною мірою зумовлює.</p>
 					</li>
-					<li class="approach-items">
-						<div class="approach-items-box">
+					<li class="skill__items">
+						<div class="skill__box">
 							<svg class="approach-items-icon" width="70" height="70">
 								<use href="./images/symbol-defs.svg#icon-astronaut-1-1">
 								</use>
 							</svg>
 						</div>
-						<h3 class="approach-titel">Сучасні технології</h3>
-						<p class="approach-text">Значимість цих проблем настільки <br> очевидна, що реалізація планових <br> завдань.</p>
+						<h3 class="skill__titel">Сучасні технології</h3>
+						<p class="skill__text">Значимість цих проблем настільки <br> очевидна, що реалізація планових <br> завдань.</p>
 					</li>
 			</ul>
 			</div>

@@ -1,20 +1,20 @@
-.approach-uptitel{
+.approach__uptitel{
 	display: none;
 }
 
 
- .approach-list{
+ .approach__list{
 	display: flex;
 	gap: 30px;
  }	
  
  
-.approach-items{
+.skill__items{
 	list-style-type: none;
 	width: 270px;
 }
 
-.approach-items-box{
+.skill__box{
 	width: 270px;
 	height: 120px;
 	background-color: #F5F4FA;
@@ -25,7 +25,7 @@
 }
 
 
-.approach-titel{
+.skill__titel{
 	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
@@ -36,7 +36,7 @@
 	margin-bottom: 10px;
 }
 
-.approach-text{
+.skill__text{
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
