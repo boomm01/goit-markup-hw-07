@@ -1,0 +1,46 @@
+.approach-uptitel{
+	display: none;
+}
+
+
+ .approach-list{
+	display: flex;
+	gap: 30px;
+ }	
+ 
+ 
+.approach-items{
+	list-style-type: none;
+	width: 270px;
+}
+
+.approach-items-box{
+	width: 270px;
+	height: 120px;
+	background-color: #F5F4FA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+
+.approach-titel{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.875;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--text-color-N1);
+	margin-bottom: 10px;
+}
+
+.approach-text{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: var(--contacts-color);
+}

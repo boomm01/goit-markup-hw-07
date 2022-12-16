@@ -1,0 +1,101 @@
+.approach-uptitel{
+	display: none;
+}
+
+
+ .approach-list{
+	display: flex;
+	gap: 30px;
+ }	
+ 
+ 
+.approach-items{
+	list-style-type: none;
+	width: 270px;
+}
+
+.approach-items-box{
+	width: 270px;
+	height: 120px;
+	background-color: #F5F4FA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+
+.approach-titel{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.875;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--text-color-N1);
+	margin-bottom: 10px;
+}
+
+.approach-text{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: var(--contacts-color);
+}
+
+/* ------------EEPLOYMENT----------------- */
+
+
+.employment{
+	padding-top: 0px;
+}
+
+
+.employment-titel{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: var(--text-color-N1);
+	margin-bottom: 50px;
+}
+.employment-list{
+	display: flex;
+	list-style-type: none;
+	gap: 30px;
+}
+
+ .employment-up-block{
+	position: relative;
+	
+}
+
+.employment-up-text{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color:#FFFFFF;
+	background: rgba(47, 48, 58, 0.8);  
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	
+
+} 
+
+.employment-img{
+	display: block;
+}

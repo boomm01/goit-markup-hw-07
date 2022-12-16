@@ -1,0 +1,128 @@
+.header-border{
+	border-bottom: 1px solid #ECECEC;
+}
+
+
+.logo{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+	color: var(--text-color-N1);
+	transition: color 250ms var(--cubik);
+}
+
+.header__logo{
+	margin-right: 93px;
+}
+
+.logo:focus,
+.logo:hover{
+	color: var(--brand-color);
+}
+
+.logo__span{
+	color: var(--brand-color);
+}
+.header-nav{
+	margin-right: auto;
+}
+
+
+.header-list{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.header-list-items:not(:last-child){
+	 margin-right: 50px; 
+}
+
+
+
+.header-list-link{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--text-color-N1);
+	text-decoration: none;
+	padding: 32px 0px;
+	display: block;
+	transition: color 250ms var(--cubik);
+	position: relative;
+}
+
+.active{
+	color: var(--brand-color)
+}
+
+.current::after{
+	content: "";
+	height: 4px;
+	background-color: var(--brand-color);
+	border-radius: 2px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.header-list-link:focus,
+.header-list-link:hover{
+	color: var(--brand-color);
+}
+
+.header-list-link:active{
+	color: var(--brand-color);
+}
+
+
+
+
+.header-contacts{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+
+}
+
+
+.header-contacts-items:not(:last-child){
+	margin-right: 50px;
+}
+
+.header-contacts-link{
+	text-decoration: none;
+	color: var(--contacts-color);
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	padding: 32px 0px;
+	display: flex;
+	align-items: center;
+	transition: color 250ms var(--cubik);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus{
+	color: var(--brand-color);
+}
+
+.header-contacts-link:active{
+	color:var(--brand-color);
+}
+
+.header-contacts-icon{
+	margin-right: 10px;
+	fill: currentColor;
+}
